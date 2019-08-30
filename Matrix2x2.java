@@ -112,3 +112,20 @@ class Matrix2x2
 	System.out.println("Nature of  matrix M2 is :   " + m2.singular());
 }
 }
+/* OUTPUT:
+	Enter elements in Matrix
+4
+2
+4
+4
+Determinant of matrix M1 is :   8.0
+Inverse of matrix M1 is :   
+0.5 -0.25 
+-0.5 0.5 
+Nature of  matrix M1 is :   true
+Determinant of matrix M2 is :   8.0
+Inverse of matrix M2 is :   
+0.5 -0.25 
+-0.5 0.5 
+Nature of  matrix M2 is :   true
+*/
