@@ -5,15 +5,12 @@ class Customer
 	String customer_name;
 	int quantity;
 	double price, total_price, discount,net_price;
-	Customer()
+	Customer(int a,String b,int c,double d)
 	{
-		Customer_number=0;
-		customer_name="\0";
-		quantity=0;
-		price=0.0;
-		total_price=0.0;
-		discount=0.0;
-		net_price=0.0;
+		Customer_number=a;
+		customer_name=b;
+		quantity=c;
+		price=d;
 	}
 	void input()
 	{
@@ -61,7 +58,7 @@ class CustomerDemo
 		Customer ob[]=new Customer[n];
 		for(i=0;i<n;i++)
 		{	
-			ob[i]=new Customer();
+			ob[i]=new Customer(0,"\0",0,0.0);
 			ob[i].input();
 			ob[i].Show();
 		}
