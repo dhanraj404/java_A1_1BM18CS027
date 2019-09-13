@@ -48,5 +48,38 @@ class Patientsdemo
 		}
 	}
 }
+/*
+bmsce@bmsce-Precision-T1700:~/java_1BM18CS027$ javac Patientsdemo.java
+[1]+  Done                    gedit
+bmsce@bmsce-Precision-T1700:~/java_1BM18CS027$ java Patientsdemo
+Enter the number of Patients:
+3
+Enter Patient_ID ,Patient_NAME , DOCTORS_NAME and  Patient_AGE:
+1e 
+one
+john
+19
+Enter Patient_ID ,Patient_NAME , DOCTORS_NAME and  Patient_AGE:
+2e
+two
+john
+22
+Enter Patient_ID ,Patient_NAME , DOCTORS_NAME and  Patient_AGE:
+3e
+three
+dave
+14
+Enter the name of the Doctor:
+john
+List of  Patients under doctor john:
 
+----------------------
+Patient_NAME:one
+Patient_ID:1e
+Patient_AGE:19
+----------------------
+Patient_NAME:two
+Patient_ID:2e
+Patient_AGE:22
+*/
 			
