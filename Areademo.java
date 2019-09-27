@@ -88,3 +88,44 @@ ch = sc.nextInt();
 while(ch!=1);
 }
 }
+/*
+bmsce@bmsce-Precision-T1700:~/java_1BM18CS027$ javac Areademo.java
+bmsce@bmsce-Precision-T1700:~/java_1BM18CS027$ java Areademo
+Enter
+1 for Rectangle
+2 for Triangle
+3 for Circle
+1
+Enter length:
+10
+Enter breadth:
+20
+Length = 10 Breadth = 20
+The area of the rectangle = 200.0
+Enter any value to continue and 1 to exit:
+0
+Enter
+1 for Rectangle
+2 for Triangle
+3 for Circle
+2
+Enter base:
+15
+Enter height:
+20
+Base = 15 Height = 20
+The area of the triangle = 150.0
+Enter any value to continue and 1 to exit:
+0
+Enter
+1 for Rectangle
+2 for Triangle
+3 for Circle
+3
+Enter radius;
+5
+Radius = 5
+The area of the circle = 78.5
+Enter any value to continue and 1 to exit:
+
+*/
